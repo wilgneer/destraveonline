@@ -697,6 +697,29 @@ body {
   font-weight: 700;
 }
 
+@media (max-width: 900px) {
+  .about-dual {
+    grid-template-columns: 1fr;
+  }
+
+  .about-card {
+    min-height: auto;
+  }
+
+  .about-card-image {
+    padding: 14px;
+  }
+
+  .about-card-image img {
+    max-height: 380px;
+    border-radius: 34px;
+  }
+
+  .about-card-text {
+    padding: 28px 22px 32px;
+  }
+}
+
 /* =========================================================
    FAQ
    ========================================================= */
@@ -1436,4 +1459,5 @@ img, picture, video, canvas, svg { max-width: 100%; height: auto; }
     font-size: 1rem;
   }
 }
+
 

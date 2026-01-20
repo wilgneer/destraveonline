@@ -45,84 +45,38 @@
 
   <!-- HERO =================================================== -->
   <header class="hero">
-  <div class="hero-grid">
-
-    <!-- COLUNA ESQUERDA: TEXTO -->
-    <div class="hero-inner">
-      <div class="hero-logo">
-        <img
-          src="img/logo-320.webp"
-          srcset="img/logo-320.webp 320w"
-          sizes="(max-width: 768px) 180px, 220px"
-          alt="Destrave sua Voz"
-          class="site-logo"
-          width="220"
-          height="80"
-          decoding="async"
-          fetchpriority="low"
-        >
-        <div class="sound-waves" aria-hidden="true">
-          <span></span><span></span><span></span><span></span><span></span>
-        </div>
+  <section class="hero2" aria-label="Destaque do evento">
+    <!-- fundo da plateia (o seu bg) -->
+    <img class="hero2__bg" src="img/bghero.webp" alt="" loading="eager" />
+  
+    <div class="hero2__inner">
+      <!-- LADO ESQUERDO (mulher - 828x817) -->
+      <div class="hero2__left">
+        <img class="hero2__speaker" src="img/perfil.webp" alt="Apresentadora" loading="eager" />
       </div>
-
-      <div class="hero-panel">
-        <h1 class="hero-title">
-          Imersão online com muito prática ao vivo: <br>
-        </h1>
-
-        <p class="hero-subtitle">
-          Descubra as técnicas mais poderosas  para começar 2026 melhorando sua Comunicação<br><br>
-
-          <strong>Domine a arte de falar em público</strong> e transforme sua vida pessoal e profissional com a oratória!
-        </p>
-
-
-
-
-        <div class="hero-bottom-row">
-          <div class="hero-badge-wrapper">
-            <span class="hero-badge-label">Próxima turma online</span>
-            <div class="hero-badge">
-              <span class="hero-badge-pill">09/02</span>
-              <span>Imersão 100% Online</span>
-            </div>
+  
+      <!-- LADO DIREITO (card) -->
+      <div class="hero2__right">
+        <div class="hero2-card">
+          <div class="hero2-card__brand">
+            <img class="hero2-logo" src="img/logo-320.webp" alt="Destrave Sua Voz" />
           </div>
-
-          <div class="hero-cta-wrapper">
-            <button class="btn-primary hero-cta" data-open-modal>
-              <span>Confirmar meu cadastro</span>
-              <span class="arrow">→</span>
-            </button>
-            <p class="hero-trust">Vagas limitadas já garanta aqui!</p>
-          </div>
+  
+          <div class="hero2-card__date"><br>07 DE FEVEREIRO</div>
+  
+          <p class="hero2-card__desc">
+            Aprenda técnicas práticas para falar com segurança, presença e clareza mesmo que hoje
+            você trave, esqueça o que ia dizer ou morra de medo de falar em público.
+          </p>
+  
+          <a class="hero2-card__cta" href="#leadModal" data-open-modal>
+            QUERO DOMINAR A ORATÓRIA <span class="cta-arrow" aria-hidden="true">→</span>
+          </a>
         </div>
       </div>
     </div>
-
-    <!-- COLUNA DIREITA: IMAGEM (LCP) -->
-    <div class="hero-media">
-      <picture>
-        <source
-          type="image/webp"
-          srcset="img/monica-200.webp 200w, img/monica-400.webp 400w"
-          sizes="(max-width: 768px) 92vw, 400px"
-        >
-        <img
-          src="img/monica-400.webp"
-          alt="Mônica Maciel"
-          class="hero-img"
-          width="400"
-          height="500"
-          loading="eager"
-          decoding="async"
-          fetchpriority="high"
-        >
-      </picture>
-    </div>
-
-  </div>
-</header>
+  </section>
+  </header>
 
 <!-- METODOLOGIA ========================================= -->
     <section class="section section-method">
@@ -219,9 +173,6 @@
               <img src="img/treinamento1.webp" alt="Turma de imersão em oratória" loading="lazy" decoding="async">
             </div>
             <div class="gallery-item">
-              <img src="img/treinamento2.webp" alt="Participantes apresentando no palco" loading="lazy" decoding="async">
-            </div>
-            <div class="gallery-item">
               <img src="img/treinamento3.webp" alt="Momento de feedback em grupo" loading="lazy" decoding="async">
             </div>
             <div class="gallery-item">
@@ -248,7 +199,7 @@
           <div class="about-surface">
             <div class="about-dual">
               <div class="about-card about-card-image">
-                <img src="img/perfil.webp" alt="Mônica Maciel" loading="lazy" decoding="async">
+                <img src="img/monica.webp" alt="Mônica Maciel" loading="lazy" decoding="async">
               </div>
 
               <div class="about-card about-card-text">
@@ -458,4 +409,3 @@
   <script src="script.js" defer></script>
 </body>
 </html>
-

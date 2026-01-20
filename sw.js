@@ -1,11 +1,14 @@
-const CACHE = "site-cache-v1";
+const CACHE = "site-cache-v2";
 const ASSETS = [
   "/",
   "/index.html",
   "/styles.css",
   "/script.js",
-  "/img/monica.webp",
-  "/img/logo.webp"
+  "/enhancements.js",
+  "/obrigado.html",
+  "/img/bghero.webp",
+  "/img/logo-320.webp",
+  "/img/mm.webp"
 ];
 
 self.addEventListener("install", (event) => {

@@ -12,7 +12,7 @@
       --stroke: rgba(255,255,255,.12);
       --text: rgba(255,255,255,.92);
       --muted: rgba(255,255,255,.70);
-      --orange: #ff9100; /* aproximado do botão da arte */
+      --orange: #DD0000; /* cor central */
     }
     *{box-sizing:border-box}
     body{
@@ -45,7 +45,7 @@
       content:"";
       position:absolute;
       inset:-2px;
-      background: radial-gradient(500px 160px at 50% 0%, rgba(255,145,0,.22), transparent 60%);
+      background: radial-gradient(500px 160px at 50% 0%, rgba(221,0,0,.22), transparent 60%);
       pointer-events:none;
     }
     .brand{
@@ -62,8 +62,8 @@
       justify-content:center;
       padding: 6px 10px;
       border-radius: 999px;
-      background: #FF653D;
-      border: 1px solid rgba(255,145,0,.30);
+      background: #DD0000;
+      border: 1px solid rgba(221,0,0,.30);
       color: rgba(0, 0, 0, 0.92);
       font-weight: 700;
       font-size: 12px;
@@ -76,7 +76,7 @@
       letter-spacing: -0.02em;
       position: relative;
     }
-    h1 span{ color: #FF653D }
+    h1 span{ color: #DD0000 }
     p{
       margin: 0 0 14px;
       color: var(--muted);
@@ -104,8 +104,8 @@
     .bar{
       height:100%;
       width:0%;
-      background: linear-gradient(90deg, #833d2c, #FF653D);
-      box-shadow: 0 0 16px rgba(255,145,0,.35);
+      background: linear-gradient(90deg, #530000, #DD0000);
+      box-shadow: 0 0 16px rgba(221,0,0,.35);
       transition: width 1s linear;
     }
     .fallback{
@@ -129,9 +129,9 @@
       text-decoration:none;
       font-weight: 800;
       color: #1b1206;
-      background: #FF653D;
-      border: 1px solid rgba(255,145,0,.35);
-      box-shadow: 0 10px 24px rgba(255,145,0,.18);
+      background: #DD0000;
+      border: 1px solid rgba(221,0,0,.35);
+      box-shadow: 0 10px 24px rgba(221,0,0,.18);
       position: relative;
     }
   </style>

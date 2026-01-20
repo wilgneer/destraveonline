@@ -1033,7 +1033,7 @@ img{max-width:100%; display:block}
 }
 
 .hero-content h1 span {
-  color: #DD0000;
+  color: #ffffff;
 }
 
 .hero-content p {
@@ -1181,9 +1181,9 @@ img{max-width:100%; display:block}
     position:absolute;
     inset: -10px -10px -10px -10px;
     background: linear-gradient(180deg,
-      rgba(0,0,0,0) 0%,
-      rgba(0,0,0,.55) 35%,
-      rgba(0,0,0,.78) 100%
+      rgba(0, 0, 0, 0.322) 0%,
+      rgba(0, 0, 0, 0.945) 60%,
+      rgba(0, 0, 0, 0) 100%
     );
     border-radius: 26px;
     z-index: -1;

@@ -144,7 +144,7 @@
     </div>
 
     <h1>Obrigado! <span>Cadastro confirmado.</span></h1>
-    <p>Estamos te levando para o nosso grupo exclusivo no WhatsApp para você entrar imediatamente.</p>
+    <p>Estamos te levando para o checkout para você finalizar sua inscrição imediatamente.</p>
 
     <div class="counter">
       Redirecionando em <span id="sec">3</span>s...
@@ -155,7 +155,7 @@
     </div>
 
     <a class="btn" id="btn" href="#" target="_blank" rel="noopener" style="display:none;">
-      Entrar no grupo agora
+      Ir para o checkout agora
     </a>
 
     <div class="fallback" id="fallback" style="display:none;">
@@ -169,8 +169,8 @@
       const params = new URLSearchParams(window.location.search);
       const to = params.get("to");
 
-      // Se não vier parâmetro, usa o link fixo do grupo
-      const fallbackUrl = "https://chat.whatsapp.com/BzLQTOdfMxJFoi33EPTHvR";
+      // Link fixo do checkout (Payfast/Greenn)
+      const fallbackUrl = "https://payfast.greenn.com.br/153700";
       const target = to ? decodeURIComponent(to) : fallbackUrl;
 
       const secEl = document.getElementById("sec");

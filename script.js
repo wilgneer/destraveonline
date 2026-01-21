@@ -47,7 +47,7 @@ document.addEventListener("keydown", (e) => {
 const GOOGLE_SHEETS_WEBAPP_URL =  "https://script.google.com/macros/s/AKfycbw9PXsm41tJIUtcCA1fDQg6jA040g2BdOFbFJsA_kWMw2i-iTL-xEFeQkdzA8Io45E8cg/exec";
 
 // 2) Link do grupo no WhatsApp
-const WHATSAPP_GROUP_URL = "https://chat.whatsapp.com/BzLQTOdfMxJFoi33EPTHvR";
+const GREEN_PAGE = "https://payfast.greenn.com.br/153700";
 
 // ===============================
 // FORMULÁRIO / INTEGRAÇÃO
@@ -79,7 +79,7 @@ if (leadForm) {
       email,
       profissao,
       whatsapp,
-      origem: "comunicacao expert",
+      origem: "destrave online",
       datahora: new Date().toISOString(),
     };
 
@@ -110,7 +110,7 @@ if (leadForm) {
 
     // ✅ vai para obrigado e ele redireciona em 3s para o WhatsApp
     setTimeout(() => {
-      const url = `obrigado.html?to=${encodeURIComponent(WHATSAPP_GROUP_URL)}`;
+      const url = `obrigado.html?to=${encodeURIComponent(GREEN_PAGE)}`;
       window.location.href = url;
     }, 150);
   });
@@ -278,4 +278,5 @@ function setupLiteYouTube() {
 }
 
 setupLiteYouTube();
+
 

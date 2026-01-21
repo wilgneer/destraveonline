@@ -44,7 +44,7 @@ document.addEventListener("keydown", (e) => {
 // ===============================
 
 // 1) Cole aqui a URL do seu Google Apps Script (Web App /exec)
-const GOOGLE_SHEETS_WEBAPP_URL =  "https://script.google.com/macros/s/AKfycbyN08tsD4b3e7A8EFHkNzVRJG3hY3O6INQpTKdIgkEa39Lc26x0pWyVxuijMaGOgVcn/exec";
+const GOOGLE_SHEETS_WEBAPP_URL =  "https://script.google.com/macros/s/AKfycbw9PXsm41tJIUtcCA1fDQg6jA040g2BdOFbFJsA_kWMw2i-iTL-xEFeQkdzA8Io45E8cg/exec";
 
 // 2) Link do grupo no WhatsApp
 const WHATSAPP_GROUP_URL = "https://chat.whatsapp.com/BzLQTOdfMxJFoi33EPTHvR";
@@ -278,3 +278,4 @@ function setupLiteYouTube() {
 }
 
 setupLiteYouTube();
+

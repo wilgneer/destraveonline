@@ -47,7 +47,7 @@ document.addEventListener("keydown", (e) => {
 const GOOGLE_SHEETS_WEBAPP_URL =  "https://script.google.com/macros/s/AKfycbw9PXsm41tJIUtcCA1fDQg6jA040g2BdOFbFJsA_kWMw2i-iTL-xEFeQkdzA8Io45E8cg/exec";
 
 // 2) Link do grupo no WhatsApp
-const GREEN_PAGE = "https://payfast.greenn.com.br/153700";
+const GREEN_PAGE = "https://payfast.greenn.com.br/tpgxbwr/offer/AXfb54";
 
 // ===============================
 // FORMULÁRIO / INTEGRAÇÃO
